@@ -1,0 +1,49 @@
+[{
+        "proId": 1,
+        "product_name": "prodA",
+        "category": "A",
+        "image": "./../../assets/ben.png",
+        "quantity": 100,
+        "description": "dgfh"
+    },
+    {
+        "proId": 2,
+        "product_name": "prodB",
+        "category": "B",
+        "image": "./../../assets/javascript.png",
+        "quantity": 200,
+        "description": "dgfh"
+    },
+    {
+        "proId": 3,
+        "product_name": "prodC",
+        "category": "C",
+        "image": "./../../assets/js.png",
+        "quantity": 300,
+        "description": "dgfh"
+    },
+    {
+        "proId": 4,
+        "product_name": "prodD",
+        "category": "D",
+        "image": "./../../assets/book.png",
+        "quantity": 400,
+        "description": "dgfh"
+    },
+    {
+        "proId": 5,
+        "product_name": "prodE",
+        "category": "E",
+        "image": "./../../assets/download.png",
+        "quantity": 500,
+        "description": "dgfh"
+    },
+    {
+        "proId":6,
+        "product_name": "prodF",
+        "category": "F",
+        "image": "./../../assets/ben.png",
+        "quantity": 600,
+        "description": "dgfh"
+    }
+]

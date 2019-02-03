@@ -1,0 +1,25 @@
+
+
+<div class="row">
+    <h1 class = "col-md-8">Products</h1>
+    <input style="margin-top:10px;" class=" col-md-3  form-control"  placeholder="Search"  #ip (keyup)="onSearch(ip.value)">
+</div>
+
+
+
+<table class="table table-responsive-sm table-bordered table-striped table-hover">
+  <tr>
+    <th>Product</th>
+    <th>Category</th>
+    <th>Quantity</th>
+    <th>Description</th>
+    <th>View</th>
+  </tr>
+  <tr *ngFor="let x of product">
+    <td>{{ x.product_name}}</td>
+    <td>{{ x.category}}</td>
+    <td>{{ x.quantity}}</td>
+    <td>{{ x.description}}</td>
+    <td><a routerLink="./../productview/{{x.proId}}">view</a></td>
+  </tr>
+</table>
